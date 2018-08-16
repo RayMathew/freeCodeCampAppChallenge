@@ -25,4 +25,10 @@ body {
     outline: none;
     font-size: 25px;
     border: none;
+    box-shadow: 10px;
+}
+
+.primary-input input::placeholder {
+    opacity: 0.3;
+    font-style: italic;
 }
